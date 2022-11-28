@@ -107,6 +107,10 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
+p {
+  text-align: left;
+}
+
 /* Spinner */
 @-moz-keyframes spinner-rotate {
   0% {
