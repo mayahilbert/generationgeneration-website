@@ -106,6 +106,9 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+		p{
+			text-align: left;
+		}
 
 /* Spinner */
 
