@@ -773,11 +773,13 @@ button.style3:active {
   background-color: transparent;
 }
 
-input[type="button"].style2.down,
-input[type="submit"].style2.down,
-input[type="reset"].style2.down,
-.button.style3.down,
-button.style3.down {
+input[type="button"].style3.up,
+input[type="submit"].style3.up,
+input[type="reset"].style3.up,
+.button.style3.up,
+button.style3.up {
+  transform: rotate(180deg);
+  border: none;
   background-image: url("images/arrow.svg");
 }
 
