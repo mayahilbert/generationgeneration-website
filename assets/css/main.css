@@ -1888,6 +1888,7 @@ body.is-touch .poptrox-popup .closer {
   line-height: 3em;
   /* padding: 0 0.5em 0 0.5em; */
   outline: 0;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 736px) {
@@ -2050,7 +2051,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .main.style3.primary {
-  background: #E1DBCC;
+  background: #EADEC5;
 }
 
 .main.style3.secondary {
@@ -2296,7 +2297,7 @@ body.is-touch .main {
 }
 
 .logo {
-  height: 4em;
+  height: 5.5em;
   width: auto;
   padding: 0.5em;
   padding-left: 1.5em;
@@ -2328,4 +2329,8 @@ section.main.project-container {
 
 .bottom-back a {
   transform: rotate(90deg);
+}
+
+header p{
+  font-size: 25px;
 }
