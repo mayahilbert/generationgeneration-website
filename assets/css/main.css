@@ -2297,7 +2297,7 @@ body.is-touch .main {
 }
 
 .logo {
-  height: 5.5em;
+  height: 5.7em;
   width: auto;
   padding: 0.5em;
   padding-left: 1.5em;
@@ -2331,6 +2331,6 @@ section.main.project-container {
   transform: rotate(90deg);
 }
 
-header p{
+header p {
   font-size: 25px;
 }
