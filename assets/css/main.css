@@ -2297,9 +2297,10 @@ body.is-touch .main {
 }
 
 .logo {
-  height: 5.7em;
+  height: 6.5em;
   width: auto;
   padding: 0.5em;
+  padding-top: 1.5em;
   padding-left: 1.5em;
 }
 
