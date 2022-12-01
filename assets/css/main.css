@@ -1893,8 +1893,9 @@ body.is-touch .poptrox-popup .closer {
 
 @media screen and (max-width: 736px) {
   #header {
-    height: 2.5em;
+    height: 5em;
     line-height: 2.5em;
+    justify-content: center;
   }
 
   #header h1 {
