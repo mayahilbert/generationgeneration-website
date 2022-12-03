@@ -11,18 +11,21 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
 	<header id="header">
-		<a href="../index.html">
-			<h1>Generation Generation</h1>
-		</a>
-
+		<a href="../index.html"><img src="../logo.png" class="logo"></a>
 		<nav>
 			<ul>
 				<li><a href="../index.html">Back to home</a></li>
@@ -30,43 +33,54 @@
 		</nav>
 	</header>
 
-
-	<section class="main style3 primary">
-		<div class="content project-text">
-			<header>
-				<h2><i>United</i></h2>
-				<h3>Peng Luo</h3>
-			</header>
-			<!-- Project statement goes here, between <p> tags. If there aren't multiple paragraphs, you can delete the second one. If there are more than two, add another set of <p> tags! -->
-			<p>In <i>United</i>, Peng Luo explores generational evolution in water consumption. Luo’s video suggests that the most prominent difference between water consumers “now versus then” is the process bottled water goes through compared to standard water from a faucet. Although Luo shows a gap between two generations of consumers, he also implies that there is potential to convince an older generation of newer ideas, indicating that there may be a possibility for a shift into “cleaner” water consumption—even despite the cost of purchasing as a commodity what can be had for free and the environmental cost of plastic waste. 
-
-</p>
-			<p>
-				The performative exchange between an older man (played by Luo) and Luo himself shows an age gap in understanding: the older character is stubborn about accepting healthier water consumption from pre-packaged containers. Luo identifies as the other side, the younger demographic of drinkers, who find comfort in bottled water because it is the “cleaner” option even while it may pollute. In the end, even paying for water was not enough to deter Luo from consuming what he suggests is the safer alternative to drinking water, expressing a disconnect between both generations.</p>
-		</div>
-		<a href="#project" class="button style3 down anchored">View</a>
-	</section>
-
 	<section id="project" class="main style3 primary project-container">
-
+		<header class="project-header">
+			<h2><i>United</i></h2>
+			<h3>Peng Luo</h3>
+		</header>
 		<!-- Use this if the project has images. -->
-		<!-- START IMAGE -->
-		<img class="project-image" src="images/one.jpg"></img>
-		<!-- END IMAGE -->
+		<!-- START IMAGE CAROUSEL -->
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide"><img src="images/3-Andrew.jpg" class="project-image"></img></div>
+				<div class="swiper-slide"><img src="images/2-Sophie.jpg" class="project-image"></img></div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+		</div>
+		<!-- END IMAGE CAROUSEL -->
 
 		<!-- Use this if the project has videos -->
 		<!-- START VIDEO -->
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/87110435?h=f253e737bd&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-				allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+		<div class="video-container">
+			<div class="video-wrapper"><iframe src="https://player.vimeo.com/video/87110435?h=f253e737bd&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+		</div>
 		<script src="https://player.vimeo.com/api/player.js"></script>
 		<!-- END VIDEO -->
 
-		<div class="bottom-back">
-			<a href="../index.html" class="button style3 down"></a>
-		</div>
-	</section>
+		<div class="down-button-container"><a href="#project-text">Read about the project</a><a href="#project-text" class="button style3 down anchored"></a></div>
 
+	</section>
+	<section class="main style3 primary" id="project-text">
+		<div class="content project-text">
+
+			<!-- Project statement goes here, between <p> tags. If there aren't multiple paragraphs, you can delete the second one. If there are more than two, add another set of <p> tags! -->
+			<p>In<i>United</i>, Peng Luo explores generational evolution in water consumption. Luo’s video suggests that the most prominent difference between water consumers “now versus then” is the process bottled water goes through compared to standard water from a faucet. Although Luo shows a gap between two generations of consumers, he also implies that there is potential to convince an older generation of newer ideas, indicating that there may be a possibility for a shift into “cleaner” water consumption—even despite the cost of purchasing as a commodity what can be had for free and the environmental cost of plastic waste. </p>
+			<p>
+				The performative exchange between an older man (played by Luo) and Luo himself shows an age gap in understanding: the older character is stubborn about accepting healthier water consumption from pre-packaged containers. Luo identifies as the other side, the younger demographic of drinkers, who find comfort in bottled water because it is the “cleaner” option even while it may pollute. In the end, even paying for water was not enough to deter Luo from consuming what he suggests is the safer alternative to drinking water, expressing a disconnect between both generations.</p>
+			<div class="bottom-back">
+
+				<a href="../index.html" class="button style3 down"></a> <a href="../index.html">Back to home</a>
+
+			</div>
+		</div>
+
+	</section>
 	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="../assets/js/jquery.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
 	<script src="../assets/js/jquery.scrollex.min.js"></script>

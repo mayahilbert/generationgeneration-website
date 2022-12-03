@@ -11,18 +11,21 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
 	<header id="header">
-		<a href="../index.html">
-			<h1>Generation Generation</h1>
-		</a>
-
+		<a href="../index.html"><img src="../logo.png" class="logo"></a>
 		<nav>
 			<ul>
 				<li><a href="../index.html">Back to home</a></li>
@@ -30,40 +33,51 @@
 		</nav>
 	</header>
 
-
-	<section class="main style3 primary">
-		<div class="content project-text">
-			<header>
-				<h2><i>SINK</i></h2>
-				<h3>Nishat Farhana</h3>
-			</header>
-			<!-- Project statement goes here, between <p> tags. If there aren't multiple paragraphs, you can delete the second one. If there are more than two, add another set of <p> tags! -->
-			<p><i>Sink</i>, a video by Nishat Farhana, creatively portrays generational trauma by compiling sound and image into patterns of addition and reduction. Farhana represents the cleansing of generational trauma in a curious yet obvious way: hand-washing. Through the symbolic repetition of hand-washing, Farhana prompts the viewer to be both introspective and outwardly-reflective all at once. Framed with a minimal scene, and an isolated gesture, <i>Sink</i>’s straightforward visuals yield rich layers of symbolic meaning. <i>Sink</i> suggests both the video’s setting—the sink at which the action unfolds—and the video’s symbolic associations—the feeling that one is sinking under the weight of something irremediable. Farhana implies that attempting to wash oneself clean from the past may or may not be possible. For example, at times, the gestures of washing away seem instead to result in further accumulation. As the video progresses, more and stranger substances mysteriously appear and also must be cleansed from the hands. Yet at other times, the hands seem clean and ready to cease their constant washing. The process of recovery from trauma is non-linear. Yet the desperation and struggle are devastatingly beautiful.
-</p>
-		</div>
-		<a href="#project" class="button style3 down anchored">View</a>
-	</section>
-
 	<section id="project" class="main style3 primary project-container">
-
+		<header class="project-header">
+			<h2><i>SINK</i></h2>
+			<h3>Nishat Farhana</h3>
+		</header>
 		<!-- Use this if the project has images. -->
-		<!-- START IMAGE -->
-		<img class="project-image" src="images/one.jpg"></img>
-		<!-- END IMAGE -->
+		<!-- START IMAGE CAROUSEL --
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<!-- Slides --
+				<div class="swiper-slide"><img src="images/3-Andrew.jpg" class="project-image"></img></div>
+				<div class="swiper-slide"><img src="images/2-Sophie.jpg" class="project-image"></img></div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+		</div>
+		<!-- END IMAGE CAROUSEL -->
 
 		<!-- Use this if the project has videos -->
 		<!-- START VIDEO -->
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/87110435?h=f253e737bd&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-				allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
-		<script src="https://player.vimeo.com/api/player.js"></script>
+			<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/777176482?h=d3b341a637&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 		<!-- END VIDEO -->
 
-		<div class="bottom-back">
-			<a href="../index.html" class="button style3 down"></a>
-		</div>
-	</section>
+		<div class="down-button-container"><a href="#project-text">Read about the project</a><a href="#project-text" class="button style3 down anchored"></a></div>
 
+	</section>
+	<section class="main style3 primary" id="project-text">
+		<div class="content project-text">
+
+			<!-- Project statement goes here, between <p> tags. If there aren't multiple paragraphs, you can delete the second one. If there are more than two, add another set of <p> tags! -->
+			<p><i>Sink</i>, a video by Nishat Farhana, creatively portrays generational trauma by compiling sound and image into patterns of addition and reduction. Farhana represents the cleansing of generational trauma in a curious yet obvious way: hand-washing. Through the symbolic repetition of hand-washing, Farhana prompts the viewer to be both introspective and outwardly-reflective all at once. Framed with a minimal scene, and an isolated gesture, <i>Sink</i>’s straightforward visuals yield rich layers of symbolic meaning. <i>Sink</i> suggests both the video’s setting—the sink at which the action unfolds—and the video’s symbolic associations—the feeling that one is sinking under the weight of something irremediable. Farhana implies that attempting to wash oneself clean from the past may or may not be possible. For example, at times, the gestures of washing away seem instead to result in further accumulation. As the video progresses, more and stranger substances mysteriously appear and also must be cleansed from the hands. Yet at other times, the hands seem clean and ready to cease their constant washing. The process of recovery from trauma is non-linear. Yet the desperation and struggle are devastatingly beautiful.</p>
+			<p>
+	
+			<div class="bottom-back">
+
+				<a href="../index.html" class="button style3 down"></a> <a href="../index.html">Back to home</a>
+
+			</div>
+		</div>
+
+	</section>
 	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="../assets/js/jquery.min.js"></script>
 	<script src="../assets/js/jquery.scrolly.min.js"></script>
 	<script src="../assets/js/jquery.scrollex.min.js"></script>
