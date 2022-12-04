@@ -2175,7 +2175,7 @@ body.is-touch .main {
   line-height: 1em;
   padding: 1.5em;
   background: #CDB898;
-  color: rgba(185, 186, 187, 0.5);
+  /* color: rgba(185, 186, 187, 0.5); */
   overflow: hidden;
 }
 
