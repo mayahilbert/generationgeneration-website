@@ -1895,7 +1895,7 @@ body.is-touch .poptrox-popup .closer {
   line-height: 3em;
   /* padding: 0 0.5em 0 0.5em; */
   outline: 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 736px) {
