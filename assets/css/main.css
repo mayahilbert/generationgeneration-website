@@ -2381,7 +2381,8 @@ section.main.project-container {
 }
 
 header p {
-  font-size: 25px;
+  /* font-size: 25px; */
+  
 }
 
 .swiper {
