@@ -550,7 +550,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 3.50em;
+  line-height: 1.25em;
+  letter-spacing: -0.05em;
+}
+
+h3{
+  font-size: 1.25em;
   line-height: 1.25em;
   letter-spacing: -0.05em;
 }
@@ -1438,6 +1444,7 @@ body.is-touch .poptrox-popup .closer {
   width: 45em;
   max-width: 100%;
   margin: 0 auto 2em auto;
+  justify-content: center;
 }
 
 .gallery article {
@@ -2380,9 +2387,13 @@ section.main.project-container {
   height: 100%;
 }
 
-header p {
-  /* font-size: 25px; */
+/* header p {
+  font-size: 25px;
   
+} */
+
+p{
+  font-size: 25px;
 }
 
 .swiper {
