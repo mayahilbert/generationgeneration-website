@@ -2427,3 +2427,10 @@ p{
   content: url("images/arrow.svg") !important;
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 768px) {
+  .video-wrapper {
+  width: 90vw;
+  }
+  }
+  
