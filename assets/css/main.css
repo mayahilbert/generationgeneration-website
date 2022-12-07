@@ -1846,7 +1846,7 @@ body.is-touch .poptrox-popup .closer {
   width: 100%;
   background: #CDB898;
   /* rgba(255, 255, 255, 0.50); */
-  height: 5em;
+  height: 4.0em;
   line-height: 3em;
   /* box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1); */
   display: flex;
@@ -2305,7 +2305,7 @@ body.is-touch .main {
 }
 
 .logo {
-  height: 6.5em;
+  height: 5.5em;
   width: auto;
   padding: 0.5em;
   padding-top: 1.6em;
@@ -2376,7 +2376,7 @@ section.main.project-container {
 .video-wrapper {
   padding: 56.25% 0 0 0;
   position: relative;
-  width: 80vw;
+  width: 57vw;
 }
 
 .video-wrapper iframe {
