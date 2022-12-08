@@ -1846,7 +1846,7 @@ body.is-touch .poptrox-popup .closer {
   width: 100%;
   background: #CDB898;
   /* rgba(255, 255, 255, 0.50); */
-  height: 4.0em;
+  height: 4.5em;
   line-height: 3em;
   /* box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1); */
   display: flex;
@@ -2305,7 +2305,7 @@ body.is-touch .main {
 }
 
 .logo {
-  height: 5.5em;
+  height: 6em;
   width: auto;
   padding: 0.5em;
   padding-top: 1.6em;
