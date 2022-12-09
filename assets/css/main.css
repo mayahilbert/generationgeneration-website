@@ -555,7 +555,7 @@ h2 {
   letter-spacing: -0.05em;
 }
 
-h3{
+h3 {
   font-size: 1.25em;
   line-height: 1.25em;
   letter-spacing: -0.05em;
@@ -2389,10 +2389,9 @@ section.main.project-container {
 
 /* header p {
   font-size: 25px;
-  
-} */
 
-p{
+} */
+p {
   font-size: 25px;
 }
 
@@ -2402,7 +2401,7 @@ p{
 
 .project-image {
   max-width: 65vw;
-  max-height: 60vh;
+  max-height: 85vh;
   object-fit: contain;
 }
 
@@ -2430,6 +2429,6 @@ p{
 
 @media only screen and (max-width: 768px) {
   .video-wrapper {
-  width: 90vw;
+    width: 90vw;
   }
-  }
+}
