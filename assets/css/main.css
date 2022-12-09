@@ -2404,7 +2404,6 @@ p{
   max-width: 65vw;
   max-height: 60vh;
   object-fit: contain;
-  position: center;
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
