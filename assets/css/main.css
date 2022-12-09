@@ -2401,9 +2401,10 @@ p{
 }
 
 .project-image {
-  max-width: 80vw;
-  max-height: 100vh;
+  max-width: 65vw;
+  max-height: 60vh;
   object-fit: contain;
+  position: center;
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
@@ -2433,5 +2434,3 @@ p{
   width: 90vw;
   }
   }
-  
-
